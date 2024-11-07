@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "vite"
+    "start": "vite",
+    "build": "npx tailwindcss -i ./src/input.css -o ./main.css --minify"
   },
   "repository": {
     "type": "git",
