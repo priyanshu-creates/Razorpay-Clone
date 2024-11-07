@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vite",
-    "build": "npx tailwindcss -i ./src/input.css -o ./main.css --minify"
+    "build": "npx tailwindcss -i ./src/main.css -o ./output.css --minify"
   },
   "repository": {
     "type": "git",
